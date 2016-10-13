@@ -1,0 +1,14 @@
+git add "nom fichier" : ajoute un fichier au repository
+
+git commit [-a] [-m ] : enregistre modification effectué sur repository, "-m" permet de laisser un message de description, "-a" demande à Git de mettre à jour les fichiers déjà existants dans le repository
+
+git checkout IdDuCommit/master : permet de se mettre à un commit antérieur (master fait revenir au commit le plus récent)
+
+
+git revert idDucommit : effectue un commit "inverse" de celui indiqué, mais ne le supprime pas
+
+git clone urlDeGitHub : copie/recupere un repository
+
+git pull origin master : recup le contenu du repo github dans la branche master
+
+git push origin master: envoie le contenu de la branche master dans le repo github
